@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+#board {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    background-image: url("./assets/images/background.png");
+}
+
+#touchLeft {
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+}
+
+#touchRight {
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+}
+
+#controller {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+}
