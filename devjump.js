@@ -5,7 +5,7 @@ let boardHeight = window.innerHeight;
 let context;
 let gameOverSound = new Audio('./assets/sounds/dial_up.mp3')
 let gameOverImage = new Image();
-gameOverImage.src = "/assets/images/game_over.png"
+gameOverImage.src = "./assets/images/game_over.png"
 
 //dev
 
