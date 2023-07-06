@@ -157,6 +157,7 @@ function moveDev(e) {
         maxScore = 0;
         gameOver = false;
         gameOverSound.pause();
+        gameOverSound.currentTime = 0;
         placePlatforms();
     }
     else if (e.target.id == "touchRight" || e.code == "ArrowRight" || e.code == "KeyD") { //move right
